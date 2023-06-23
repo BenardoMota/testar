@@ -200,6 +200,29 @@ body {
         flex-direction: column;
     }
 
-    .user-card
+    .user-card{
+        width: 100%;
+        padding: 2rem;
+    }
+    .user-card img{
+        width: 180px;
+    }
 
+    .user-card .user-name{
+        font-size: 1.6rem;
+    }
+
+    .user-card .user-role{
+        font-size: 1.4rem;
+    }
+
+    #form-inner{
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+    #register-form,
+    #name-container{
+        gap: 1rem;
+    }
 }
